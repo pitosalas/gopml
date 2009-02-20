@@ -1,0 +1,14 @@
+<?xml version='1.0'?>
+<opml xmlns:bb='http://blogbridge.com/ns/2006/opml'>
+ <head>
+  <title>
+   Congressmen
+  </title>
+ </head>
+ <body>
+  <outline text='Their Feeds'>
+   <outline xmlUrl='http://www.house.gov/apps/list/press/wi04_moore/RSS.xml' text='Gwendolynne Moore' type='rss'/>
+   <outline xmlUrl='http://www.house.gov/apps/list/press/wi06_petri/RSS.xml' text='Thomas Petri' type='rss'/>
+  </outline>
+ </body>
+</opml>

@@ -1,0 +1,13 @@
+<?xml version='1.0'?>
+<opml xmlns:bb='http://blogbridge.com/ns/2006/opml'>
+ <head>
+  <title>
+   Congressmen
+  </title>
+ </head>
+ <body>
+  <outline text='Their Feeds'>
+   <outline xmlUrl='http://www.house.gov/apps/list/press/ri02_langevin/RSS.xml' text='James Langevin' type='rss'/>
+  </outline>
+ </body>
+</opml>

@@ -1,0 +1,13 @@
+<?xml version='1.0'?>
+<opml xmlns:bb='http://blogbridge.com/ns/2006/opml'>
+ <head>
+  <title>
+   Congressmen
+  </title>
+ </head>
+ <body>
+  <outline text='Their Feeds'>
+   <outline xmlUrl='http://htmlfixit.com/blog/wp-rss2.php' text='Diana DeGette' type='rss'/>
+  </outline>
+ </body>
+</opml>
