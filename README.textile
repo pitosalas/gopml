@@ -1,0 +1,24 @@
+h1. Overview of Gopml
+
+THIS IS INCOMPLETE. I AM STILL WORKING ON IT
+
+h1. LICENSE
+
+GOPML is part of GovSDK is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+GovSDK is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with GovSDK.  If not, see <http://www.gnu.org/licenses/>.
+
+h1. Routes
+
+|_.route|_.means|
+|/|Display overall FAQ|
+|/congress|Display information about ./congress dataset|
+|/congress/state|Display information about querying by state|
+|/congress/state/:state.opml|Return an OPML of all the state congresspeople's blogs|
+|/congress/state/:state|Display a page of blogs of all the state congress people's blogs|
+|/info|Display a list of the datasets|
+|/debug/resetlog|Clear the server log|
+|/debug/log|display the server log|
+|/debug/path|display information about the server paths|
