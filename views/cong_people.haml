@@ -1,0 +1,23 @@
+!!! Strict
+%html
+  %head
+    %link{:rel=>"stylesheet", :href=>"/stylesheets/application.css", :type=>"text/css"}
+  %body
+    %h2== Gopml - Congresspeople for '#{@matching_state}'
+    %p
+      Is available by state:
+      %blockquote
+        %code
+          http://gopml.blogbridge.com/congress/state
+      And also by party
+      %blockquote
+        %code
+          http://gopml.blogbridge.com/congress/party
+    %p
+    - if @proper_state_name.nil?
+      %h3== Sorry, '#{@matching_state}' is not a known US State
+    - else
+      List of congresspeople that you will have in your OPML
+      %ol
+        - @matching_congpeople.each do |cong_pers|
+          %li= "Congressperson #{cong_pers.lastname}"

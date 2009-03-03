@@ -1,0 +1,14 @@
+!!! Strict
+%html
+  %head
+    %link{:rel=>"stylesheet", :href=>"/stylesheets/application.css", :type=>"text/css"}
+  %body
+    %h2 Gopml - Status page
+    %p
+      Gopml is a web service to provide useful lists of rss feeds from government
+      sources. It is very much under development and will continue to be revised
+      on a daily basis. That said, you can try using it today, knowing that your 
+      mileage will vary, etc.
+    %p== Server (logged in as #{@myself}) is here: #{@name}, owner #{@data.uid}, group #{@data.gid}. 
+    %p== Directory cache owner: #{@cachedir.uid}, group #{@cachedir.gid}"
+    %p== Process uid: #{Process.uid} gid: #{Process.gid}
